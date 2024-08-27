@@ -1,0 +1,221 @@
+/* CSS */
+
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    height: 60px;
+    padding: 0 20px;
+  }
+  
+  .navbar {
+    /* Other styles for the navbar */
+    background-image: url('hero.jpg');
+    background-size: cover;
+    background-position:top ;
+    opacity: 0.7; /* Sets the navbar to 70% opaque */
+  }
+  .navbar-brand {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .navbar-nav {
+    list-style: none;
+    margin: 0;
+    display: flex;
+  }
+  
+  .nav-item {
+    margin-left: 20px;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+  }
+  
+  .nav-link:hover {
+    color: #ccc;
+  }
+  
+  /* Hero */
+  .hero {
+    width: 100%;
+    height: 400px;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero {
+    /* Other styles for the hero element */
+    background-image: url('hero.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .hero-logo {
+    background-image: url('LOGO4.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+  }
+  
+  
+  .hero-title {
+    font-size: 3rem;
+    color: rgb(0, 0, 0);
+    margin: 0;
+  }
+  
+ 
+  .hero-subtitle {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    background-color: rgb(0, 0, 0);
+    opacity: 30%;
+  }
+  
+  /* Slider */
+  .slider {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  /* Apply the animation to the slider items */
+  .slider-item {
+    animation: slide 15s linear infinite;
+  }
+  
+  .slider-item {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .slider-container {
+display: flex;
+  }
+
+  .slider-section {
+    display: flex;
+      }
+
+  .slider-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* Photography Categories */
+  .photography-categories {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .category {
+    width: 30%;
+    text-align: center;
+  }
+  
+  .category-title {
+    font-size: 2rem;
+    margin: 20px 0;
+  }
+  
+  .category-image {
+    width: 100%;
+    height: 200px;
+    object-fit:cover;
+    align-items:flex-start;
+    border-radius: 5px;
+    margin: 20px 0;
+  }
+  
+  .category-description {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+  
+  /* Counter */
+  .counter {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .counter-item {
+    width: 25%;
+    text-align: center;
+  }
+  
+/* Footer */
+.footer {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0;
+    padding: 20px 0;
+    border-top: 1px solid #ccc;
+  }
+  
+  .footer-copyright {
+    font-size: 1.2rem;
+    color: #666;
+    align-items: center;
+  }
+  
+  .footer-social {
+    list-style: none;
+    margin: 0;
+    display: flex;
+  }
+  
+  .social-link {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    margin-left: 10px;
+  }
+  
+  .social-link:hover {
+    background-color: #ccc;
+  }
+  
+  .fa-facebook-f,
+  .fa-instagram,
+  .fa-twitter {
+    font-size: 1.5rem;
+  }
+  
+  
